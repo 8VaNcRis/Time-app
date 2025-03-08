@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Time-app/",  // ✅ Make sure this matches your repo name
+  base: "/Time-app/",
 });
 
